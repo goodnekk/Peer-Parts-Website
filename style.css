@@ -1,0 +1,59 @@
+html, body {
+        margin: 0;
+        background-color: #F2F2F2;
+        color: #333360;
+        font-size: 12pt;
+        font-family: 'Ubuntu Mono';
+        text-align: center;
+    }
+
+    .title {
+        font-size: 30pt;
+        font-family: 'Ubuntu';
+        margin-bottom:40px;
+    }
+
+    img {
+        margin-bottom:40px;
+    }
+
+    .text{
+        margin-bottom:40px;
+    }
+
+    .button{
+        width:100px;
+        height:30px;
+        background-color: #333360;
+        color: #F2F2F2;
+        padding-top:10px;
+        cursor:pointer;
+        cursor:hand;
+    }
+
+    .emailsubscribe{
+        width:100px;
+        height:30px;
+        background-color: #F2F2F2;
+
+    }
+
+    @media (max-width: 400px) {
+        #container{
+            max-width: 34em;
+            margin: 0 auto;
+            padding-right: 1em;
+            padding-left: 1em;
+            text-align: center;
+        }
+    }
+
+    @media all and (min-width: 400px) {
+        #container{
+            max-width: 600px;
+            margin: 0 auto;
+            margin-top: 5em;
+            padding-right: 1em;
+            padding-left: 1em;
+            text-align: center;
+        }
